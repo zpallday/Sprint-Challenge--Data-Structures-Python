@@ -42,6 +42,12 @@ class LinkedList:
     # if we've gotten here, then the target node isn't in our list
     return False
 
+
+
+#  Iterative
+# It creates 3 nodes, current, previous, and next nodes
+# The current node is the head and the other two are null
+# It keeps reversing the pointers one by one till the current node is null.
   def reverse_list(self):
     # TO BE COMPLETED
     previous_node = None
